@@ -1,0 +1,324 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    transition: 0.5s linear;
+}
+.logo:hover{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar{
+    background: rgb(9, 79, 107);
+    padding: 10px;
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(56, 240, 20);
+    text-transform: uppercase;
+    margin-top: 5px;
+    
+}
+
+.dot-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 90px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-menu a{
+    text-transform: uppercase;
+    background-color: rgb(14, 89, 119);
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 5px 15px;
+}
+
+.nav-menu a:hover{
+    background-color: gray;
+}
+
+/* Part 2 start  */
+
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+    background: rgb(160, 197, 240);
+}
+
+p{
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 20px auto 0px auto;
+}
+.top-whe{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 2s;
+}
+
+.top-whe:hover{
+    transform: rotate(-90deg);
+}
+
+.bottom-whe{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    transition: 2s;
+}
+.bottom-whe:hover{
+    transform: rotate(90deg);
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* part 3 start here */
+
+.about-me{
+    background: rgb(45, 91, 151);
+    text-align: center;
+    color: white;
+    
+}
+
+.about-me p{
+    margin: 20px auto;
+}
+
+.aboutme-image img{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+
+.aboutme-des a{
+    color: white;
+}
+
+.download-cv{
+    margin: 30px auto;
+    background-color: rgb(209, 17, 216);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* part - 4 start here */
+
+.work-icon{
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(213, 214, 205);
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+.card:hover{
+    box-shadow: 10px 10px 5px black;
+    
+}
+
+.work-icon img{
+    height: 70px;
+    width: 70px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    
+}
+.work-title{
+    background-color: rgb(97, 96, 96);
+    color: white;
+}
+
+
+.all-progress{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.all-progress progress{
+    width: 90%;
+    
+    
+}
+.card hr{
+    margin: 20px auto;
+}
+
+.pro-exp::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* part 5 start here  */
+
+.last-baba{
+    background-color: rgb(48, 105, 60);
+    color: white;
+    text-align: center;
+}
+
+
+.ach li{
+    margin: 20px auto;
+    text-align: left;
+}
+.cont{
+    
+}
+.cont input, textarea{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+.email{
+    width: 500px;
+}
+.btn{
+    background-color: rgb(37, 38, 87);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px;
+    margin: 20px 10px;
+}
+.last-h2{
+    margin: 10px auto;
+}
+
+/* icon button start here  */
+
+.btn-icon1 button{
+    font-size: 1rem;
+    margin: 7px 7px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+}
+.btn-icon2 button{
+    font-size: 1rem;
+    margin: 7px 7px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+}
+.btn-icon3 button{
+    font-size: 1rem;
+    margin: 7px 7px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+
+
+/* icon button end here */
+
+.btn2:hover{
+    background-color: rgb(66, 196, 248);
+}
+
+.last-baba::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* footer start here  */
+
+.footer{
+    
+    text-align: center;
+    
+}
+.one{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 17px;
+    
+}
+.two{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+}
+.one a{
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.one a:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+span{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
